@@ -1,0 +1,20 @@
+activity a
+activity b
+activity c
+activity d
+activity e
+activity f
+activity g
+activity h
+activity i
+activity j
+activity k
+Responded Existence[b, e] | | |
+End[a] | | |
+Responded Existence[e, c] | | |
+Precedence[b, h] | | |
+Precedence[e, c] | | |
+Responded Existence[g, e] | | |
+Precedence[f, j] | | |
+Responded Existence[f, g] | | |
+Responded Existence[k, f] | | |

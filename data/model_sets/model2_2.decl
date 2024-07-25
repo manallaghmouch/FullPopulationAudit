@@ -1,0 +1,14 @@
+activity a
+activity b
+activity c
+activity d
+activity e
+activity f
+activity g
+activity h
+activity i
+activity j
+End[e] | | |
+Precedence[g, h] | | |
+Precedence[i, g] | | |
+Precedence[g, i] | | |

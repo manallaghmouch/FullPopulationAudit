@@ -1,0 +1,30 @@
+activity a
+activity b
+activity c
+activity d
+activity e
+activity f
+activity g
+activity h
+activity i
+activity j
+activity k
+activity l
+activity m
+activity n
+activity o
+activity p
+activity q
+activity r
+Responded Existence[l, e] | | |
+Alternate Response[j, a] | | |
+Responded Existence[j, d] | | |
+Chain Response[o, d] | | |
+Alternate Precedence[f, a] | | |
+End[k] | | |
+Responded Existence[d, m] | | |
+Chain Precedence[i, n] | | |
+Alternate Precedence[c, d] | | |
+Init[g] | | |
+Chain Response[r, k] | | |
+Precedence[f, r] | | |

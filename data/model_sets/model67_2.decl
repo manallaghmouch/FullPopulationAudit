@@ -1,0 +1,27 @@
+activity a
+activity b
+activity c
+activity d
+activity e
+activity f
+activity g
+activity h
+activity i
+activity j
+activity k
+activity l
+activity m
+activity n
+Alternate Precedence[f, c] | | |
+Precedence[i, h] | | |
+Responded Existence[n, m] | | |
+Responded Existence[i, g] | | |
+Precedence[m, d] | | |
+Precedence[e, d] | | |
+Precedence[e, b] | | |
+Responded Existence[a, c] | | |
+Precedence[g, d] | | |
+Precedence[m, k] | | |
+Precedence[d, k] | | |
+Responded Existence[l, i] | | |
+Precedence[f, a] | | |
