@@ -209,20 +209,6 @@ with open('len_deviations_dict_10_noise.pkl', 'wb') as f:
 with open('perc_anomalies_in_sample_dict_10_noise.pkl', 'wb') as f:
     pickle.dump(perc_anomalies_in_sample_dict, f)
 
-# function to delete previous files from directory
-# def remove_files(directory,start_with,end_with):
-#     df=pd.DataFrame()
-#     os.chdir(directory)
-#     for file in os.listdir():
-#         if file.startswith(str(start_with)) & file.endswith(str(end_with)):
-#             os.remove(file)
-#             print("file removed")
-#     return df
-
-# directory = 'G:\\Shared drives\\PhD Manal\\Projects\\Git\\DeclareModelHierarchy'
-
-# remove_files(directory,'test','csv')
-
 # Save results in csv files
 for h in range(1, num_logs+1): 
 
@@ -365,4 +351,4 @@ columns = {
 }
 
 combined_df.columns = columns
-combined_df.to_csv('X_noise10.csv', index=False)
+combined_df.to_csv('results.csv', index=False)
